@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright (C) 2019 LotusOS Project
+<!-- Copyright (C) 2019 RebellionOS Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -37,7 +37,7 @@
         android:title="@string/battery_bar_battery_low_color"
         android:defaultValue="0xffffff" />
 
-    <com.lotus.settings.preferences.SystemSettingSwitchPreference
+    <com.rebellion.settings.preferences.SystemSettingSwitchPreference
         android:key="statusbar_battery_bar_enable_charging_color"
         android:title="@string/battery_bar_use_charging_color"
         android:defaultValue="true" />
@@ -48,13 +48,13 @@
         android:defaultValue="0xffffff"
         android:dependency="statusbar_battery_bar_enable_charging_color" />
 
-    <com.lotus.settings.preferences.SystemSettingSwitchPreference
+    <com.rebellion.settings.preferences.SystemSettingSwitchPreference
         android:key="statusbar_battery_bar_blend_color"
         android:title="@string/battery_bar_blend_color_title"
         android:summary="@string/battery_bar_blend_color_summary"
         android:defaultValue="false" />
 
-    <com.lotus.settings.preferences.SystemSettingSwitchPreference
+    <com.rebellion.settings.preferences.SystemSettingSwitchPreference
         android:key="statusbar_battery_bar_blend_color_reverse"
         android:title="@string/battery_bar_blend_color_reverse_title"
         android:summaryOn="@string/battery_bar_blend_color_reverse_summary_on"
@@ -68,7 +68,7 @@
         android:entries="@array/battery_bar_style_entries"
         android:entryValues="@array/battery_bar_style_values" />
 
-    <com.lotus.settings.preferences.CustomSeekBarPreference
+    <com.rebellion.settings.preferences.CustomSeekBarPreference
         android:key="statusbar_battery_bar_thickness"
         android:title="@string/battery_bar_thickness_title"
         android:max="4"

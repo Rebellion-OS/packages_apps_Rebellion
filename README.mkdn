@@ -1,0 +1,5 @@
+# Rebellion Settings
+
+  Here is repository for Rebellion Settings.
+  
+  Based on our anthore project, [LotusOS](https://github.com/LotusOS)

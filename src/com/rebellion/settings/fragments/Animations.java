@@ -47,7 +47,7 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.rebellion.AwesomeAnimationHelper;
+import com.android.internal.util.lotus.AwesomeAnimationHelper;
 import com.android.settings.Utils;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;

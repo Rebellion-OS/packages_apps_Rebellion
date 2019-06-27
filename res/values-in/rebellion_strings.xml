@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bahasa Indonesia belum sepenuhnya di terjemahkan -->
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Copyright (C) 2019 The RebellionOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="rebellion_settings_title"> Pengaturan Rebellion</string>
+	
+	    <!-- Catehories Separator -->
+    <string name="systemui_category">Kustomisasi SystemUI</string>
+    <string name="interfaces_category">Kustomisasi antarmuka</string>
+	<string name="notification_category">Kustomisasi Notifikasi</string>
+	<string name="misc_category">Kustomisasi lainnya</string>
+	
+    <!-- Categories -->
+    <string name="button_title">Tombol</string>
+    <string name="gestures_title">Gestur</string>
+    <string name="interfaces_title">Antramuka</string>
+    <string name="lockscreen_title">LAyar kunci</string>
+    <string name="animations_title">Animasi sistem</string>
+    <string name="misc_title">Lain lain</string>
+    <string name="navbar_title">Bar navigasi</string>
+    <string name="powermenu_title">Menu daya perangkat</string>
+    <string name="quicksettings_title">Pengaturan cepat</string>
+    <string name="statusbar_title">Bar Status</string>
+    <string name="volume_title">Volume rocker</string>
+    <string name="notifications_title">Thông báo</string>
+    <string name="aosp_gesture_title">Gesture AOSP</string>
+	
+	    <!-- Categories Summaries -->
+    <string name="button_summary">Kustomisasi fungsi tombol</string>
+    <string name="gestures_summary">Menu kustomisasi gestur perangkat</string>
+    <string name="interfaces_summary">Pesonalisai antarmuka perangkat</string>
+    <string name="animations_summary">Tentukan animasi perangkat</string>
+    <string name="lockscreen_summary">Personalisasi kunci layar perangkat</string>
+    <string name="misc_summary">Miscellaneousn settings</string>
+    <string name="navbar_summary">Pengaturan tambahan bar navigasi</string>
+    <string name="powermenu_summary">Personalisasi tambahan menu daya</string>
+    <string name="quicksettings_summary">Kustomisasi pengaturan cepat</string>
+    <string name="statusbar_summary">Menu peronal bar status</string>
+    <string name="volume_summary">Menu kustomisasi volume rocker</string>
+    <string name="notifications_summary">Personalisasi notifikasi</string>
+	
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="save">Simpan</string>
+	
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Pemilih warna</string>
+    <string name="press_color_to_apply">Sentuh warna untuk memilih</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Terapkan</string>
+    <string name="color_default">Warna default</string>
+    <string name="system_colors">Warna sistem</string>
+    <string name="accent_color">Warna aksen</string>
+	
+    <string name="battery_category">Baterai</string>
+    <string name="notifications_category_title">Perlindungan dari notifikasi yang menggangu</string>
+
+</resources>

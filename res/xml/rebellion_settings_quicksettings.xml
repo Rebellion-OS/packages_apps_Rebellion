@@ -37,12 +37,11 @@
     <PreferenceCategory
         android:title="@string/qs_panel_tuner_category_title">
          
-        <com.rebellion.settings.preferences.SystemSettingListPreference
-            android:key="theming_settings_dashboard_icons"
-            android:title="@string/theming_settings_dashboard_icons_title"
-            android:entries="@array/theming_settings_dashboard_icons_entries"
-            android:entryValues="@array/theming_settings_dashboard_icons_values"
-            android:defaultValue="0" />
+	   <Preference
+            android:key="custom_header"
+            android:fragment="com.rebellion.settings.fragments.CustomHeaders"
+            android:title="@string/custom_headers_title"
+            android:summary="@string/custom_headers_summary" />
          
         <ListPreference
             android:key="qs_tile_style"

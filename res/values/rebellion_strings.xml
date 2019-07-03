@@ -221,6 +221,11 @@
     <string name="swap_volume_buttons">Rotation Swap</string>
     <string name="volume_keys_swap_summary">Swap volume buttons based on device rotation</string>
 
+    <!--Other battery settings-->
+    <string name="advan_buttons">Other</string>
+    <string name="advan_buttons_title">Advanced button settings</string>
+    <string name="advan_buttons_summary">More button customization here!</string>
+
     <!-- Tiles animation style  -->
     <string name="qs_tile_animation_title">Animations</string>
     <string name="qs_tile_animation_style_title">Animation style</string>

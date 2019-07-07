@@ -222,7 +222,7 @@
     <string name="volume_keys_swap_summary">Swap volume buttons based on device rotation</string>
 
     <!--Other battery settings-->
-    <string name="advan_buttons">Other</string>
+    <string name="advan_button">Other</string>
     <string name="advan_buttons_title">Advanced button settings</string>
     <string name="advan_buttons_summary">More button customization here!</string>
 

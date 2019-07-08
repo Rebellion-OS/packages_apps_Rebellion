@@ -28,7 +28,7 @@
     <!-- Categories -->
     <string name="button_title">Tombol</string>
     <string name="gestures_title">Gestur</string>
-    <string name="interfaces_title">Antramuka</string>
+    <string name="interfaces_title">Antarmuka</string>
     <string name="lockscreen_title">Layar kunci</string>
     <string name="animations_title">Animasi sistem</string>
     <string name="misc_title">Lain lain</string>

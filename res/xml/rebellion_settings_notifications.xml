@@ -36,6 +36,12 @@
         android:entryValues="@array/heads_up_snooze_values"
         android:persistent="false" />
 
+	<Preference
+         android:key="battery_charging_light"
+	 android:icon="@drawable/ic_battery_almostfull"
+         android:fragment="com.lotus.settings.BatteryLightSettings"
+         android:title="@string/battery_light_settings" />
+
     <PreferenceCategory
         android:title="@string/heads_up_stoplist_title"
         android:key="stoplist_applications"

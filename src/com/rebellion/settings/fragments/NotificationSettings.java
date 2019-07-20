@@ -29,6 +29,7 @@ import android.os.UserHandle;
 import android.provider.Settings;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceGroup;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.PreferenceViewHolder;
@@ -82,6 +83,8 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
     private String mBlacklistPackageList;
     private String mStoplistPackageList;
     private SwitchPreference mForceExpanded;
+    private PreferenceCategory mLedsCategory;
+    private Preference mChargingLeds;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -139,6 +142,17 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
         mForceExpanded = (SwitchPreference) findPreference(FORCE_EXPANDED_NOTIFICATIONS);
         mForceExpanded.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.FORCE_EXPANDED_NOTIFICATIONS, 0) == 1));
+
+		mLedsCategory = (PreferenceCategory) findPreference("light_category");
+        mChargingLeds = (Preference) findPreference("battery_charging_light");
+        if (mChargingLeds != null
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            mLedsCategory.removePreference(mChargingLeds);
+        }
+          if (mChargingLeds == null) {
+            prefSet.removePreference(mLedsCategory);
+        }
     }
 
     @Override

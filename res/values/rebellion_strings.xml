@@ -785,4 +785,16 @@
     <string name="lockdate_font_size_title">Date font size</string>
     <string name="lockclock_font_size_title">Clock font size</string>
 
+    <!-- Battery light -->
+    <string name="battery_light_settings">Đèn báo sạc</string>
+    <string name="battery_light_enable">Đèn báo pin</string>
+    <string name="battery_light_allow_on_dnd_title">Đèn báo pin trong chế độ không làm phiền</string>
+    <string name="battery_light_low_blinking_title">Nháy đèn khi pin yếu</string>
+    <string name="battery_light_cat">Màu đèn báo pin khi đang sạc</string>
+    <string name="battery_light_low_color">Pin yếu</string>
+    <string name="battery_light_medium_color">Pin trung bình</string>
+    <string name="battery_light_full_color">Gần đầy pin</string>
+    <string name="battery_light_reallyfull_color">Pin đầy (100%)</string>
+    <string name="light_category">Tùy chỉnh Led</string>
+
 </resources>

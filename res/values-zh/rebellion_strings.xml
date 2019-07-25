@@ -19,7 +19,7 @@
     <string name="rebellion_settings_title">Rebellion 设置</string>
 
     <!-- Catehories Separator -->
-    <string name="systemui_category">自定义SystemUI</string><!--SystemUI Customization-->
+    <string name="systemui_category">自定义系统UI</string><!--SystemUI Customization-->
     <string name="interfaces_category">自定义界面</string><!--Intefaces Customization -->
     <string name="notification_category">自定义通知</string><!--Notifications Customization -->
     <string name="misc_category">自定义杂项</string><!--Miscellaneous Customization -->
@@ -43,8 +43,8 @@
     <string name="button_summary">自定义按键功能</string><!--Customize your button fucntion. -->
     <string name="gestures_summary"系统手势菜单></string><!--System gestures menu -->
     <string name="interfaces_summary">自定义系统界面</string><!--Personalize your system interfaces-->
-    <string name="animations_summary">选择你的动画</string><!--Choose your own animations -->
-    <string name="lockscreen_summary">调整锁屏</string><!--Tune up your lock screen-->
+    <string name="animations_summary">选择你自己的动画</string><!--Choose your own animations -->
+    <string name="lockscreen_summary">自定义锁屏</string><!--Tune up your lock screen-->
     <string name="misc_summary">杂项设置</string><!--Miscellaneous settings-->
     <string name="navbar_summary">导航栏额外设置</string><!--Navigation bar extra settings -->
     <string name="powermenu_summary">自定义高级电源菜单</string><!--Advanced power menu personalization-->
@@ -54,7 +54,7 @@
     <string name="notifications_summary">自定义通知菜单</string><!--Notifications customization menu -->
 
     <!-- General strings -->
-    <string name="ok">OK</string><!--  -->
+    <string name="ok">确定</string><!--  -->
     <string name="reset">重置</string><!--Reset -->
     <string name="cancel">取消</string><!--Cancel -->
     <string name="save">保存</string><!--Save -->
@@ -72,26 +72,26 @@
     <string name="accent_color">强调色</string><!--Accent color -->
 
     <string name="battery_category">电池</string><!--Battery -->
-    <string name="notifications_category_title">通知保护</string><!--Annoying notifications protection-->
+    <string name="notifications_category_title">骚扰通知保护</string><!--Annoying notifications protection-->
 
     <!-- Battery percentage -->
     <string name="battery_style_category_title">电池图标风格</string><!--Battery icon style -->
     <string name="battery_style_category_summary">更换状态栏电池图标</string><!--Change the style of the status bar battery icon -->
     <string name="status_bar_battery_percentage_title">电池百分比</string><!--Battery percentage-->
-    <string name="status_bar_battery_percentage_summary">显示当前的电池电量百分比</string><!--Show the current battery level percentage-->
+    <string name="status_bar_battery_percentage_summary">显示当前电量百分比</string><!--Show the current battery level percentage-->
     <string name="status_bar_battery_percentage_default">隐藏</string><!--Hidden -->
-    <string name="status_bar_battery_percentage_text_next">图标后</string><!--Next to the icon -->
+    <string name="status_bar_battery_percentage_text_next">图标旁</string><!--Next to the icon -->
     <string name="status_bar_battery_percentage_text_inside">图标内</string><!--Inside the icon -->
 
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">电池风格</string><!--Battery style -->
     <string name="status_bar_battery_style_port">Portrait</string><!--  -->
-    <string name="status_bar_battery_style_q">Q</string><!--Q style -->
+    <string name="status_bar_battery_style_q">Q样式</string><!--Q style -->
     <string name="status_bar_battery_style_circle">圆</string><!--Circle -->
     <string name="status_bar_battery_style_dotted_circle">虚线圆</string><!--Dotted circle -->
     <string name="status_bar_battery_style_big_circle">大圆</string><!--Big circle -->
     <string name="status_bar_battery_style_big_dotted_circle">大虚线圆</string><!--Big dotted circle -->
-    <string name="status_bar_battery_style_text">数字</string><!--Text -->
+    <string name="status_bar_battery_style_text">文字</string><!--Text -->
     <string name="status_bar_battery_style_hidden">隐藏</string><!--Hidden -->
 
     <!-- Power Menu -->
@@ -102,46 +102,46 @@
     <string name="powermenu_restart_recovery">高级重启</string><!--Advanced restart -->
     <string name="powermenu_airplane">飞行模式</string><!--Airplane -->
     <string name="powermenu_settings">设置</string><!--Settings -->
-    <string name="powermenu_lockdown">Lock Down</string><!--  -->
+    <string name="powermenu_lockdown">锁定</string><!--  -->
     <string name="powermenu_users">用户</string><!--Users -->
     <string name="powermenu_logout">登出</string><!--Logout -->
     <string name="powermenu_torch">手电筒</string><!--Flashlight -->
 
     <!-- Power plug events -->
-    <string name="wake_when_plugged_or_unplugged_title">插上电源</string><!--Wake on plug-->
-    <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源时打开屏幕</string><!--Turn the screen on when connecting or disconnecting a power source-->
+    <string name="wake_when_plugged_or_unplugged_title">插上电源后唤醒</string><!--Wake on plug-->
+    <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源时亮屏</string><!--Turn the screen on when connecting or disconnecting a power source-->
 
     <!-- Bluetooth battery status -->
     <string name="bluetooth_battery_title">蓝牙电池状态</string><!--Bluetooth battery status -->
-    <string name="bluetooth_battery_summary"></string><!--  -->显示连接上的蓝牙设备的电量<!--Display battery status for the connected bluetooth device, if available -->
+    <string name="bluetooth_battery_summary"></string><!--  -->显示连接的蓝牙设备电量<!--Display battery status for the connected bluetooth device, if available -->
 	
 	<!-- Heads up options -->
     <string name="less_boring_heads_up_title">减少悬浮通知干扰</string><!-- Make heads up less annoying -->
-    <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string><!-- Show heads up only for dialer or messaging app if they are not in foreground -->
+    <string name="less_boring_heads_up_summary">仅为在后台的电话和短信显示悬浮通知</string><!-- Show heads up only for dialer or messaging app if they are not in foreground -->
 
     <!-- Brightness slider tweaks -->
     <string name="brightness_slider_title">亮度条调整</string><!-- Brightness slider tweaks -->
     <string name="qs_show_brightness_title">亮度条</string><!-- Brightness slider -->
     <string name="qs_show_brightness_summary">在快速设置面板中显示亮度条</string><!-- Show a brightness slider in the quick settings panel -->
     <string name="qs_brightness_position_bottom_title">底部亮度条</string><!-- Bottom brightness slider -->
-    <string name="qs_brightness_position_bottom_summary">显示快速设置面板底部的亮度条</string><!-- Show brightness slider on the bottom of the quick settings panel -->
+    <string name="qs_brightness_position_bottom_summary">在快速设置面板底部显示亮度条</string><!-- Show brightness slider on the bottom of the quick settings panel -->
     <string name="qs_show_auto_brightness_title">自动亮度按钮</string><!-- Adaptive brightness button -->
     <string name="qs_show_auto_brightness_summary">显示自动亮度按钮</string><!-- Show adaptive brightness button -->
-    <string name="qs_auto_brightness_right_title">自动亮度按钮的位置</string><!-- Right position for adaptive brightness button -->
+    <string name="qs_auto_brightness_right_title">右置自动亮度按钮</string><!-- Right position for adaptive brightness button -->
     <string name="qs_auto_brightness_right_summary">将自动亮度按钮移动到亮度滑块的右侧</string><!-- Move the adaptive brightness button to the right of the brightness slider -->
     <string name="qs_show_brightness_buttons_title">亮度控制按钮</string><!-- Brightness control buttons -->
-    <string name="qs_show_brightness_buttons_summary">显示按钮以增加或减少亮度</string><!-- Show buttons to increase or decrease the brightness -->
+    <string name="qs_show_brightness_buttons_summary">显示增减亮度按钮</string><!-- Show buttons to increase or decrease the brightness -->
 
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">锁定时没有电源菜单</string><!-- No power menu when locked -->
-    <string name="lockscreen_power_menu_disabled_summary">禁用安全锁屏上的电源菜单</string><!-- Disable power menu on secure lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">锁定时不显示电源菜单</string><!-- No power menu when locked -->
+    <string name="lockscreen_power_menu_disabled_summary">在安全锁屏上禁用电源菜单</string><!-- Disable power menu on secure lockscreen -->
 
     <string name="notification_sound_vib_screen_on_title">屏幕打开时发出通知</string><!-- Noisy notifications if screen on -->
-    <string name="notification_sound_vib_screen_on_summary">禁用屏幕唤醒时通知声音和振动</string><!-- Disable to block notifications sound and vibration when the screen is awake -->
+    <string name="notification_sound_vib_screen_on_summary">禁用以阻止屏幕唤醒时的通知声音和振动</string><!-- Disable to block notifications sound and vibration when the screen is awake -->
 
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">智能通知声音</string><!-- Smart notification sounds -->
-    <string name="less_notification_sounds_summary">每个设定的时间段仅播放一次每个应用的通知声音</string><!-- Play the notification sound of each app only once per set time period -->
+    <string name="less_notification_sounds_summary">每隔一段时间播放应用的通知声音</string><!-- Play the notification sound of each app only once per set time period -->
     <string name="less_notification_sounds_default">应用默认</string><!-- App default -->
     <string name="less_notification_sounds_10s">每隔10秒</string><!-- Every 10 seconds -->
     <string name="less_notification_sounds_30s">每隔30秒</string><!-- Every 30 seconds -->

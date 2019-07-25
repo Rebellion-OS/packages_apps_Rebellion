@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Copyright (C) 2019 The rebellion X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="rebellion_settings_title">Rebellion 设置</string>
+
+    <!-- Catehories Separator -->
+    <string name="systemui_category">自定义SystemUI</string><!--SystemUI Customization-->
+    <string name="interfaces_category">自定义界面</string><!--Intefaces Customization -->
+	<string name="notification_category">自定义通知</string><!--Notifications Customization -->
+	<string name="misc_category">自定义杂项</string><!--Miscellaneous Customization -->
+	
+    <!-- Categories -->
+    <string name="button_title">按键</string><!--Buttons -->
+    <string name="gestures_title">手势</string><!--Gestures -->
+    <string name="interfaces_title">界面</string><!--Interfaces -->
+    <string name="animations_title">动画</string><!--Animations -->
+    <string name="lockscreen_title">锁屏</string><!--Lock screen -->
+    <string name="misc_title">杂项</string><!--Miscellaneous -->
+    <string name="navbar_title">导航栏</string><!--Navigation bar -->
+    <string name="powermenu_title">电源菜单</string><!--Power menu -->
+    <string name="quicksettings_title">快速设置</string><!--Quick settings -->
+    <string name="statusbar_title">状态栏</string><!--Status bar -->
+    <string name="volume_title">音量指示条</string><!--Volume rockers -->
+    <string name="notifications_title">通知</string><!--Notifications -->
+    <string name="aosp_gesture_title">AOSP手势</string><!--AOSP Gestures -->
+    
+</resources>

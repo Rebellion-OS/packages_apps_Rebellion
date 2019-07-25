@@ -21,8 +21,8 @@
     <!-- Catehories Separator -->
     <string name="systemui_category">自定义SystemUI</string><!--SystemUI Customization-->
     <string name="interfaces_category">自定义界面</string><!--Intefaces Customization -->
-	<string name="notification_category">自定义通知</string><!--Notifications Customization -->
-	<string name="misc_category">自定义杂项</string><!--Miscellaneous Customization -->
+    <string name="notification_category">自定义通知</string><!--Notifications Customization -->
+    <string name="misc_category">自定义杂项</string><!--Miscellaneous Customization -->
 	
     <!-- Categories -->
     <string name="button_title">按键</string><!--Buttons -->
@@ -38,5 +38,208 @@
     <string name="volume_title">音量指示条</string><!--Volume rockers -->
     <string name="notifications_title">通知</string><!--Notifications -->
     <string name="aosp_gesture_title">AOSP手势</string><!--AOSP Gestures -->
-    
+	
+    <!-- Categories Summaries -->
+    <string name="button_summary">自定义按键功能</string><!--Customize your button fucntion. -->
+    <string name="gestures_summary"系统手势菜单></string><!--System gestures menu -->
+    <string name="interfaces_summary">自定义系统界面</string><!--Personalize your system interfaces-->
+    <string name="animations_summary">选择你的动画</string><!--Choose your own animations -->
+    <string name="lockscreen_summary">调整锁屏</string><!--Tune up your lock screen-->
+    <string name="misc_summary">杂项设置</string><!--Miscellaneous settings-->
+    <string name="navbar_summary">导航栏额外设置</string><!--Navigation bar extra settings -->
+    <string name="powermenu_summary">自定义高级电源菜单</string><!--Advanced power menu personalization-->
+    <string name="quicksettings_summary">自定义快速设置</string><!--Quick settings personalization menu-->
+    <string name="statusbar_summary">状态栏个人菜单</string><!--Status bar personal menu-->
+    <string name="volume_summary">自定义音量指示条菜单</string><!--Volume rockers customization menu-->
+    <string name="notifications_summary">自定义通知菜单</string><!--Notifications customization menu -->
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">重置</string><!--Reset -->
+    <string name="cancel">取消</string><!--Cancel -->
+    <string name="save">保存</string><!--Save -->
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">颜色选择器</string><!--Color Picker -->
+    <string name="press_color_to_apply">在下面选择一个颜色来应用</string><!--Press on color below to apply -->
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">默认</string><!--Default -->
+    <string name="system_colors">颜色</string><!--Colors -->
+    <string name="accent_color">强调色</string><!--Accent color -->
+
+    <string name="battery_category">电池</string><!--Battery -->
+    <string name="notifications_category_title">通知保护</string><!--Annoying notifications protection-->
+
+    <!-- Battery percentage -->
+    <string name="battery_style_category_title">电池图标风格</string><!--Battery icon style -->
+    <string name="battery_style_category_summary">更换状态栏电池图标</string><!--Change the style of the status bar battery icon -->
+    <string name="status_bar_battery_percentage_title">电池百分比</string><!--Battery percentage-->
+    <string name="status_bar_battery_percentage_summary">显示当前的电池电量百分比</string><!--Show the current battery level percentage-->
+    <string name="status_bar_battery_percentage_default">隐藏</string><!--Hidden -->
+    <string name="status_bar_battery_percentage_text_next">图标后</string><!--Next to the icon -->
+    <string name="status_bar_battery_percentage_text_inside">图标内</string><!--Inside the icon -->
+
+    <!-- Status bar battery style-->
+    <string name="status_bar_battery_style_title">电池风格</string><!--Battery style -->
+    <string name="status_bar_battery_style_port">Portrait</string>
+    <string name="status_bar_battery_style_q">Q</string><!--Q style -->
+    <string name="status_bar_battery_style_circle">圆</string><!--Circle -->
+    <string name="status_bar_battery_style_dotted_circle">虚线圆</string><!--Dotted circle -->
+    <string name="status_bar_battery_style_big_circle">大圆</string><!--Big circle -->
+    <string name="status_bar_battery_style_big_dotted_circle">大虚线圆</string><!--Big dotted circle -->
+    <string name="status_bar_battery_style_text">数字</string><!--Text -->
+    <string name="status_bar_battery_style_hidden">隐藏</string><!--Hidden -->
+
+    <!-- Power Menu -->
+    <string name="powermenu_category_title">电源菜单切换</string><!--Power menu toggles-->
+    <string name="powermenu_screenshot">截图</string><!--Screenshot -->
+    <string name="powermenu_power">电源</string><!--Power -->
+    <string name="powermenu_restart">重启</string><!--Restart -->
+    <string name="powermenu_restart_recovery">高级重启</string><!--Advanced restart -->
+    <string name="powermenu_airplane">飞行模式</string><!--Airplane -->
+    <string name="powermenu_settings">设置</string><!--Settings -->
+    <string name="powermenu_lockdown">Lock Down</string>
+    <string name="powermenu_users">用户</string><!--Users -->
+    <string name="powermenu_logout">登出</string><!--Logout -->
+    <string name="powermenu_torch">手电筒</string><!--Flashlight -->
+
+    <!-- Power plug events -->
+    <string name="wake_when_plugged_or_unplugged_title">插上电源</string><!--Wake on plug-->
+    <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源时打开屏幕</string><!--Turn the screen on when connecting or disconnecting a power source-->
+
+    <!-- Bluetooth battery status -->
+    <string name="bluetooth_battery_title">蓝牙电池状态</string><!--Bluetooth battery status -->
+    <string name="bluetooth_battery_summary"></string>显示连接上的蓝牙设备的电量<!--Display battery status for the connected bluetooth device, if available -->
+	
+	<!-- Heads up options -->
+	
+	<!-- Brightness slider tweaks -->
+	
+	<!-- Power menu on secure lockscreen -->
+	
+	<!-- Less Notification sounds -->
+	
+	<!-- Ambient display music ticker -->
+	
+	<!-- Status bar clock options -->
+	
+	<!-- Lockscreen cover art -->
+	
+	<!-- Lock screen visualizer -->
+	
+	<!-- Ambient visualizer -->
+	
+	<!--Vol button rotation swap-->
+	
+	<!--Other battery settings-->
+	
+	<!-- Tiles animation style  -->
+	
+	<!-- Screen Off animation -->
+	
+	<!-- Heads up -->
+	
+	<!-- QuickSettings haptic feedback -->
+	
+	<!-- The volume key answer -->
+	
+	<!-- Old Style Mobile -->
+	
+	<!-- Custom carrier label and position -->
+	
+	<!-- Hide notch -->
+	
+	<!-- Roaming indicator icon -->
+	
+	<!-- Brightness control -->
+	
+	<!-- Volume Steps -->
+	
+	<!-- Audio Panel view  -->
+	
+	<!-- Network traffic Settings -->
+	
+	<!-- Bottom navigation gestures -->
+	
+	<!-- QS panel tuner -->
+	
+	<!-- Dashboard conditions -->
+	
+	<!-- Dashboard suggestions -->
+	
+	<!-- Lockscreen cover art filter -->
+	
+	<!--logo -->
+	
+	<!-- QuickSettings Panel Transparency -->
+	
+	<!-- Hide On Lockscreen -->
+	
+	<!-- Lockscreen items -->
+	
+	<!-- Lockscreen clock styles -->
+	
+	<!-- Lockscreen Date styles -->
+	
+	<!-- Data disabled icon -->
+	
+	<!-- Notification guts kill app button -->
+	
+	<!-- QS tile styles -->
+	
+	<!-- Lock Clock Fonts -->
+	
+	<!-- Lockscreen fonts - Common strings -->
+	
+	<!-- Lockscreen fonts - other fonts, unstranslatable by default -->
+    <!-- Custom fonts -->
+	
+	<!-- Lock date fonts -->
+	
+	<!-- Lock owner test -->
+	
+	<!-- Charging animation -->
+	
+	<!-- Settings dashboard icon style -->
+	
+	<!-- Rounded corners -->
+	
+	<!-- Powermunu Background -->
+	
+	<!-- Custom headers -->
+	
+	<!-- Incall vibrate options -->
+	
+	<!-- Battery Bar -->
+	
+	<!-- Toast Animation -->
+	
+	<!-- AOKP custom system animations -->
+	
+	<!-- ListView animation -->
+	
+	<!-- ListView interpolator -->
+	
+	<!-- Option to enable/disable scrolling cache -->
+	
+	<!-- Power menu Animations  -->
+	
+	<!-- Force expanded notifications -->
+	
+	<!-- Launch music player when headset is connected -->
+	
+	<!-- USB configuration -->
+	
+	<!-- On-The-Go -->
+	
+	<!-- Onehand UI mode -->
+	
+	<!-- SeekBar -->
+	
+	<!-- Lock Clock & Date Size -->
+	
 </resources>

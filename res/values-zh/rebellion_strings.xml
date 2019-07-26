@@ -149,11 +149,11 @@
     <string name="less_notification_sounds_2m">每2分钟</string><!-- Every 2 minutes -->
 
     <string name="incall_notifications_vibrate">Less annoying in-call notifications</string><!-- Less annoying in-call notifications -->
-    <string name="incall_notifications_vibrate_summary">Vibrate instead of playing a sound for in-call notifications</string><!-- Vibrate instead of playing a sound for in-call notifications -->
+    <string name="incall_notifications_vibrate_summary">通话中使通知仅震动</string><!-- Vibrate instead of playing a sound for in-call notifications -->
 
     <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Ambient music ticker</string><!-- Ambient music ticker -->
-    <string name="force_ambient_for_media_pref_summary">Configure the Ambient music ticker</string><!-- Configure the Ambient music ticker -->
+    <string name="force_ambient_for_media_pref_title">音乐提示</string><!-- Ambient music ticker -->
+    <string name="force_ambient_for_media_pref_summary">在息屏显示中显示播放音乐信息</string><!-- Configure the Ambient music ticker -->
     <string name="ambient_ticker_footer">Ambient Music Ticker shows playing music track info within Ambient display screen.\n\nIt\'s triggered also if Ambient Display is disabled when a new track is started, forcing a clean ambient screen with track info in the middle of the screen.\n\nYou can also double tap on track info to skip track.。</string><!-- Ambient Music Ticker shows playing music track info within Ambient display screen.\n\nIt\'s triggered also if Ambient Display is disabled when a new track is started, forcing a clean ambient screen with track info in the middle of the screen.\n\nYou can also double tap on track info to skip track. -->
     <string name="force_ambient_for_media_title">启用</string><!-- Enable -->
 
@@ -287,7 +287,7 @@
     <string name="quick_settings_vibrate_summary">触摸QS瓷砖时振动</string><!-- Vibrate when touching QS tiles -->
 
     <!-- The volume key answer -->
-    <string name="volume_answer_call_title">Volume keys answer</string><!-- Volume keys answer -->
+    <string name="volume_answer_call_title">音量键接听</string><!-- Volume keys answer -->
     <string name="volume_answer_call_summary">按音量键时接听电话</string><!-- ">Answer the call when volume keys pressed -->
 
     <!-- Old Style Mobile -->
@@ -328,13 +328,13 @@
 
     <!-- Volume Steps -->
     <string name="volume_steps_title">Volume steps</string><!--  -->
-    <string name="volume_steps_alarm_title">Volume steps: Alarm</string><!--Volume steps: Alarm  -->
+    <string name="volume_steps_alarm_title">Volume steps: 闹钟</string><!--Volume steps: Alarm  -->
     <string name="volume_steps_dtmf_title">Volume steps: DTMF</string><!--  -->
-    <string name="volume_steps_music_title">Volume steps: Music</string><!--  -->
-    <string name="volume_steps_notification_title">Volume steps: Notification</string><!--  -->
-    <string name="volume_steps_ring_title">Volume steps: Ringer</string><!--  -->
-    <string name="volume_steps_system_title">Volume steps: System</string><!--  -->
-    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string><!--  -->
+    <string name="volume_steps_music_title">Volume steps: 音乐</string><!--  -->
+    <string name="volume_steps_notification_title">Volume steps: 通知</string><!--  -->
+    <string name="volume_steps_ring_title">Volume steps: 铃声</string><!--  -->
+    <string name="volume_steps_system_title">Volume steps: 系统</string><!--  -->
+    <string name="volume_steps_voice_call_title">Volume steps: 电话</string><!--  -->
     <string name="volume_steps_reset">重置</string><!-- Reset -->
     <string name="volume_steps_60" translatable="false">60</string><!--  -->
     <string name="volume_steps_45" translatable="false">45</string><!--  -->
@@ -452,9 +452,9 @@
     <!-- Lockscreen Date styles -->
     <string name="lockscreen_date_selection_title">日期样式</string><!-- Date style -->
     <string name="lockscreen_date_selection_default">默认</string><!-- Default -->
-    <string name="lockscreen_date_selection_str_box">Semi-transparent box</string><!--  -->
-    <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string><!--  -->
-    <string name="lockscreen_date_selection_qbeta_style">Q Beta pill</string><!--  -->
+    <string name="lockscreen_date_selection_str_box">半透明盒子</string><!--  -->
+    <string name="lockscreen_date_selection_str_round">半透明盒子(圆角)</string><!--  -->
+    <string name="lockscreen_date_selection_qbeta_style">Q Beta 药丸</string><!--  -->
     <string name="lockscreen_date_selection_str_accent">Rounded, simple and with accent</string><!--  -->
     <string name="lockscreen_date_selection_str_accent_day">Rounded, simple and with accent (alt)</string><!--  -->
     <string name="lockscreen_date_selection_str_accent_transparent">Rounded, transparent and with accent</string><!--  -->

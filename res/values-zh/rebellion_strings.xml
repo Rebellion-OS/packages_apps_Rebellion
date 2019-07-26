@@ -113,7 +113,7 @@
 
     <!-- Bluetooth battery status -->
     <string name="bluetooth_battery_title">蓝牙电池状态</string><!--Bluetooth battery status -->
-    <string name="bluetooth_battery_summary"></string><!--  -->显示连接的蓝牙设备电量<!--Display battery status for the connected bluetooth device, if available -->
+    <string name="bluetooth_battery_summary">显示连接的蓝牙设备电量</string><!--Display battery status for the connected bluetooth device, if available -->
 	
 	<!-- Heads up options -->
     <string name="less_boring_heads_up_title">减少悬浮通知干扰</string><!-- Make heads up less annoying -->

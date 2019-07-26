@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Nitrogen OS
-     Copyright (C) 2019 The RebellionOS Project
+     Copyright (C) 2019 The rebellion X Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -38,7 +41,7 @@
 	
     <!-- Categories Summaries -->
     <string name="button_summary">自定义按键功能</string><!--Customize your button fucntion. -->
-    <string name="gestures_summary"系统手势菜单></string><!--System gestures menu -->
+    <string name="gestures_summary">系统手势菜单</string><!--System gestures menu -->
     <string name="interfaces_summary">自定义系统界面</string><!--Personalize your system interfaces-->
     <string name="animations_summary">选择你自己的动画</string><!--Choose your own animations -->
     <string name="lockscreen_summary">自定义锁屏</string><!--Tune up your lock screen-->

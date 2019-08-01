@@ -38,7 +38,7 @@
 	
     <!-- Categories Summaries -->
     <string name="button_summary">自定义按键功能</string><!--Customize your button fucntion. -->
-    <string name="gestures_summary"系统手势菜单></string><!--System gestures menu -->
+    <string name="gestures_summary">系统手势菜单></string><!--System gestures menu -->
     <string name="interfaces_summary">自定义系统界面</string><!--Personalize your system interfaces-->
     <string name="animations_summary">选择你自己的动画</string><!--Choose your own animations -->
     <string name="lockscreen_summary">自定义锁屏</string><!--Tune up your lock screen-->
